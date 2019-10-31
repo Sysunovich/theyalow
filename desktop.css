@@ -573,6 +573,7 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0;
   }
   body {
+    max-width: 640px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -618,8 +619,8 @@ input[type=range]:focus::-ms-fill-upper {
     left: 179px;
     -moz-bottom: 567px;
     -webkit-bottom: 787px;
-    /* bottom: 567px; */
-    bottom: 685px;
+    bottom: 573px;
+    /* bottom: 685px; */
 }
   
   .player {
@@ -886,6 +887,7 @@ input[type=range]:focus::-ms-fill-upper {
   }
 
   .article-footer {
+    max-width: 600px;
     display: flex;
     position: relative;
     bottom: 44px;
