@@ -568,6 +568,13 @@ input[type=range]:focus::-ms-fill-upper {
   /********************************
   *********HEADER******************
   ********************************/
+  @-moz-document url-prefix() {
+    .header-right {position: absolute;
+      left: 179px;
+      bottom: 573px;
+      padding-bottom: 108px;}
+  }
+    
   * {
     padding: 0;
     margin: 0;
@@ -617,10 +624,7 @@ input[type=range]:focus::-ms-fill-upper {
   .header-right {
     position: absolute;
     left: 179px;
-    -moz-bottom: 567px;
-    -webkit-bottom: 787px;
     bottom: 573px;
-    /* bottom: 685px; */
 }
   
   .player {
